@@ -1,0 +1,54 @@
+
+.Tasks__padre{
+padding: 50px;
+color: #000000;
+position: relative;
+/* display: inline-flex; */
+}
+
+.Tasks__hijo{
+    display: inline-flex;
+    width: 100%;
+}
+
+.Icono__contenedor{
+    width: 80%;
+}
+
+.Icono {
+    color: #000000;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #6CD1AB;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+    padding: 40px;
+    float: right;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Icono__contenedor > a {
+    overflow: hidden;
+}
+
+.Icono > h1 {
+    font-size: 100px;
+    padding-bottom: 7px;
+    transition: 0.3s;
+}
+
+   .Icono h1:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transition: 5s;
+  }
+
+.Icono:hover h1 {
+    position:  relative;
+    font-size: 130px;
+    color: #ffffff;
+  }  

@@ -1,0 +1,28 @@
+.Tasks__contenedor {
+    width: 400px;
+    height: 140px;
+    background-color: #E2E2E2;
+    border-radius: 20px;
+    padding: 40px 40px 80px 40px;
+    font-size: 30px;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Diseño de contenedor tareas */
+
+strong {
+    font-size: 20px;
+    color: red;
+}
+
+.Lista__contenedor {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-bottom: 25px;
+}

@@ -1,0 +1,41 @@
+.Navbar__padre {
+    background-color: #598d8b;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    width: 100%;
+}
+
+.Navbar__hijo {
+    width: 100%;
+    display: inline-flex;
+}
+
+.Navbar__hewtec {
+    padding-left: 30px;
+    padding-left: 30px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px
+}
+
+.Navbar__hewtec > h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.Navbar__bruja {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.Logo__bruja {
+    width: 60px;
+}
+
+.Navbar__bruja img{
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
